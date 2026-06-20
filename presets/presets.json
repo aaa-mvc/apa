@@ -1,0 +1,139 @@
+{
+  "_comment": "办公场景尺寸预设。gpt-image-2 仅支持 1024x1024 / 1024x1536 / 1536x1024 / auto 四种尺寸。所有 size 字段均使用这四个值之一，aspect 记录目标比例供后处理裁切。",
+  "presets": {
+    "ppt_cover_169": {
+      "label": "PPT 封面 16:9（出图 3:2，建议裁切）",
+      "size": "1536x1024",
+      "aspect": "16:9",
+      "format": "png",
+      "scene": "presentation_cover"
+    },
+    "ppt_slide_169": {
+      "label": "PPT 内页 16:9（出图 3:2，建议裁切）",
+      "size": "1536x1024",
+      "aspect": "16:9",
+      "format": "png",
+      "scene": "presentation_slide"
+    },
+    "wechat_header": {
+      "label": "公众号头图 2.35:1（出图 3:2，建议裁切）",
+      "size": "1536x1024",
+      "aspect": "2.4:1",
+      "format": "jpg",
+      "scene": "wechat_header"
+    },
+    "wechat_square": {
+      "label": "朋友圈方图 1:1",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "format": "jpg",
+      "scene": "social_square"
+    },
+    "poster_a3": {
+      "label": "A3 海报竖版（出图 2:3）",
+      "size": "1024x1536",
+      "aspect": "A3_portrait",
+      "format": "png",
+      "scene": "poster"
+    },
+    "poster_a4": {
+      "label": "A4 通知/传单（出图 2:3）",
+      "size": "1024x1536",
+      "aspect": "A4_portrait",
+      "format": "png",
+      "scene": "poster"
+    },
+    "avatar_1k": {
+      "label": "头像 1024",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "format": "png",
+      "scene": "avatar"
+    },
+    "avatar_2k": {
+      "label": "头像高清 2K（需后处理放大）",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "format": "png",
+      "scene": "avatar_hd"
+    },
+    "banner_wide": {
+      "label": "宽幅 Banner 4:1（出图 3:2，需后处理裁切）",
+      "size": "1536x1024",
+      "aspect": "4:1",
+      "format": "png",
+      "scene": "banner"
+    },
+    "mobile_916": {
+      "label": "短视频竖屏 9:16（出图 2:3，建议裁切）",
+      "size": "1024x1536",
+      "aspect": "9:16",
+      "format": "png",
+      "scene": "mobile_vertical"
+    },
+    "mobile_34": {
+      "label": "小红书图文 3:4（出图 2:3，建议裁切）",
+      "size": "1024x1536",
+      "aspect": "3:4",
+      "format": "png",
+      "scene": "xhs_image"
+    },
+    "ecommerce_main": {
+      "label": "电商主图白底 1:1",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "format": "png",
+      "background": "transparent",
+      "scene": "ecommerce"
+    },
+    "logo_square": {
+      "label": "Logo 底图 透明 1:1",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "format": "png",
+      "background": "transparent",
+      "scene": "logo"
+    },
+    "redpacket_cover": {
+      "label": "微信红包封面 9:16（出图 2:3，建议裁切）",
+      "size": "1024x1536",
+      "aspect": "9:16",
+      "format": "png",
+      "scene": "redpacket"
+    },
+    "sticker_circle": {
+      "label": "表情包 1:1",
+      "size": "1024x1024",
+      "aspect": "1:1",
+      "format": "png",
+      "background": "transparent",
+      "scene": "sticker"
+    },
+    "doc_inline": {
+      "label": "文档插图 3:2",
+      "size": "1536x1024",
+      "aspect": "3:2",
+      "format": "png",
+      "scene": "doc"
+    },
+    "ppt_chart": {
+      "label": "PPT 配图 3:2",
+      "size": "1536x1024",
+      "aspect": "3:2",
+      "format": "png",
+      "scene": "presentation_chart"
+    }
+  },
+  "ratio_alias": {
+    "1:1": "1024x1024",
+    "square": "1024x1024",
+    "3:2": "1536x1024",
+    "landscape": "1536x1024",
+    "2:3": "1024x1536",
+    "portrait": "1024x1536",
+    "16:9": "1536x1024",
+    "9:16": "1024x1536",
+    "wide": "1536x1024",
+    "auto": "auto"
+  }
+}

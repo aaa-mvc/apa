@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+workspace/*.png
+workspace/*.jpg
+workspace/*.webp
+workspace/history.jsonl
+.DS_Store
