@@ -113,3 +113,19 @@ apa/
 ```
 
 每次结果都存到 `workspace/`，自动写一行到 `workspace/history.jsonl`。
+
+---
+
+## Attribution
+
+This project is derived from [robinsones001/picture-skill](https://github.com/robinsones001/picture-skill).
+
+**Changes from upstream:**
+- Renamed to APA
+- Fixed preset sizes to match gpt-image-2 supported dimensions (1024×1024 / 1024×1536 / 1536×1024 / auto)
+- Added 24 automated unit tests
+- Cleaned up dead code in multipart API client
+- Added comprehensive documentation (SKILL.md, skill-spec.md, INSTALL.md)
+- Added MIT License
+
+Original work © robinsones001. Modifications © Ax.
